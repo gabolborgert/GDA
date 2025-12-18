@@ -1,0 +1,103 @@
+body {
+    background-image: url(./IMAGENES/GDA-PAG-FONDO.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 2REM;
+    border-bottom: 1px solid #000000;
+}
+
+.footer {
+  margin-top: 60px;          /* separación con lo de arriba */
+  padding: 30px 0;           /* contenido hacia adentro */
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+/* ESTILOS HEADER */
+
+.logoheader {
+    height: 15vh;
+    /* 10% del alto de la pantalla */
+    width: auto;
+    /* mantiene proporcion */
+}
+
+.menu ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.indexheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ESTILOS MAIN */
+
+.arg {
+    height: 50vh;
+    display: block;
+    margin: 40px auto;
+}
+
+.indexh1 {
+    margin-top: 2rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.indexp {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.indexh2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.indexp2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexh3{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.indexp3 {
+    margin-top: 2rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* ESTILOS FOOTER */
+
+.insta-logo{
+    width: 40px;
+}
